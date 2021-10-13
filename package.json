@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html --open",
+    "dev": "parcel ./src/index.html --open",
     "build": "parcel build index.html",
-    "lint": "eslint ./js",
-    "lint:fix": "eslint ./js --fix"
+    "lint": "eslint ./src/js",
+    "lint:fix": "eslint ./src/js --fix"
   },
   "repository": {
     "type": "git",
