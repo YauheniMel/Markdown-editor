@@ -34,6 +34,30 @@ nav > ul {
   border-bottom: 2px solid rgb(170, 170, 170);
 }
 
+form {
+  display: inline-block;
+}
+
+.line-item input {
+  width: 300px;
+  border: none;
+  outline: none;
+  height: 48px;
+}
+
+.line-item button {
+  margin-bottom: 6px;
+  border: none;
+}
+
+form:invalid .btn-confirm-value {
+  display: none;
+}
+
+form:valid .btn-confirm-value {
+  display: inline-block;
+}
+
 .wrap-preview button {
   position: sticky;
   width: 50px;
