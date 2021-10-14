@@ -6,4 +6,4 @@ function choiceWrapElem (elements, classvalue) {
   });
 }
 
-export {choiceWrapElem};
+export { choiceWrapElem };

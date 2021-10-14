@@ -1,5 +1,5 @@
-import {choiceWrapElem} from "./choice-wrap-elem.js";
-import {makingActiveElem} from "./making-active-elem.js";
+import { choiceWrapElem } from "./choice-wrap-elem.js";
+import { makingActiveElem } from "./making-active-elem.js";
 
 function searchCurrentWrap() {
 
@@ -24,4 +24,4 @@ function searchCurrentWrap() {
   });
 }
 
-export {searchCurrentWrap};
+export { searchCurrentWrap };
