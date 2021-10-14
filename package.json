@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "<= 15.0.0",
+    "npm": "<= 5.0.0"
+  },
   "scripts": {
-    "dev": "parcel index.html --open",
-    "build": "parcel build index.html",
-    "lint": "eslint ./js",
-    "lint:fix": "eslint ./js --fix"
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html",
+    "lint": "eslint ./src/js",
+    "lint:fix": "eslint ./src/js --fix",
+    "deploy": "gh-pages -d dist",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -26,5 +32,8 @@
     "eslint-plugin-export": "^0.1.2",
     "eslint-plugin-import": "^2.23.4",
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
   }
 }
