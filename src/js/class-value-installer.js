@@ -19,4 +19,4 @@ class ClassValueInstaller {
   }
 }
 
-export {ClassValueInstaller};
+export { ClassValueInstaller };

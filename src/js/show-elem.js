@@ -14,4 +14,4 @@ function showElem(obj) {
   wrapPreviewEl.append(wrapNewEl);
 }
 
-export {showElem};
+export { showElem };

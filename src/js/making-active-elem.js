@@ -11,4 +11,4 @@ function makingActiveElem(targetEl) {
   });
 }
 
-export {makingActiveElem};
+export { makingActiveElem };

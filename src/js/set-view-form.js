@@ -1,4 +1,4 @@
-import {showForm} from "./show-form.js";
+import { showForm } from "./show-form.js";
 
 function setViewForm(clickPosition, wrapPosition) {
   const positionX = clickPosition.x - wrapPosition.left - 10;
@@ -38,4 +38,4 @@ function setViewForm(clickPosition, wrapPosition) {
   }
 }
 
-export {setViewForm};
+export { setViewForm };

@@ -1,4 +1,4 @@
-import {showElem} from "./show-elem.js";
+import { showElem } from "./show-elem.js";
 
 function prepareElem(data) {
 
@@ -14,4 +14,4 @@ function prepareElem(data) {
   }, { once: true });
 }
 
-export {prepareElem};
+export { prepareElem };

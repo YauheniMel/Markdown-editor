@@ -4,4 +4,4 @@ function deleteLineItem() {
   });
 }
 
-export {deleteLineItem};
+export { deleteLineItem };

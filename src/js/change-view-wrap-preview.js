@@ -1,4 +1,4 @@
-import {ClassValueInstaller} from "./class-value-installer.js";
+import { ClassValueInstaller } from "./class-value-installer.js";
 
 function changeViewWrapPreview(btn) {
   const classInstall = new ClassValueInstaller;
@@ -18,4 +18,4 @@ function changeViewWrapPreview(btn) {
   });
 }
 
-export {changeViewWrapPreview};
+export { changeViewWrapPreview };

@@ -9,7 +9,6 @@ class Validation {
       const checkValidFormValue = event.detail.input.checkValidity();
       if(checkValidFormValue) {
         event.detail.value.forEach((value) => {
-          console.log(value);
           document.dispatchEvent(new CustomEvent("confirm-value", {
             detail: value
           }));
@@ -19,4 +18,4 @@ class Validation {
   }
 }
 
-export {Validation};
+export { Validation };

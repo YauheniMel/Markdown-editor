@@ -22,4 +22,4 @@ class FormValue {
   }
 }
 
-export {FormValue};
+export { FormValue };

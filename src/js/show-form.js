@@ -4,7 +4,7 @@ function showForm(template) {
   wrapMarkdownEl.innerHTML += template;
 }
 
-export {showForm};
+export { showForm };
 
 
 

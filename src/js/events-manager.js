@@ -49,4 +49,4 @@ class EventsManager {
   }
 }
 
-export {EventsManager};
+export { EventsManager };
